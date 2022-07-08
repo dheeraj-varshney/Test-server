@@ -1,0 +1,22 @@
+type Title {
+  name: String
+  author: String
+}
+
+type Books {
+  id: Int!
+  title: Title!
+}
+
+type Example {
+  example: String
+}
+
+type Query {
+  books: Books
+  Example: Example
+}
+
+type Mutation {
+  books: String
+}

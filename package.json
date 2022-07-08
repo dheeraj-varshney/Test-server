@@ -1,0 +1,27 @@
+{
+  "name": "temp",
+  "engines": {
+    "node": "14.15.1"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@graphql-tools/load-files": "^6.6.0",
+    "@graphql-tools/schema": "^8.5.0",
+    "apollo-server-fastify": "^3.9.0",
+    "fastify": "^3.23.1",
+    "graphql": "14.7.0",
+    "jsonwebtoken": "^8.5.1",
+    "mercurius": "7.0.0",
+    "merge-graphql-schemas": "^1.7.8",
+    "middie": "^5.3.0",
+    "path": "^0.12.7",
+    "typescript": "^4.7.4",
+    "undici": "^5.6.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.3"
+  }
+}
